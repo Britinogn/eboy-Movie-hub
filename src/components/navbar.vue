@@ -62,7 +62,7 @@ window.addEventListener("scroll", function() {
 
 <template >
   <header data-header
-      :class="{ active: isScrolled }" class="absolute top-0 left-0 w-full md:pb-5 border-b border-green-700 z-[4]">
+      :class="{ active: isScrolled }" class="absolute  top-0 left-0 w-full md:pb-5 border-b border-purple-900 z-[4]">
     <div class="flex justify-between items-center">
       <h1 class=" ">
         <router-link to="/">
