@@ -81,7 +81,7 @@
   </section>
 
 
-  <footer class="bg-purple-300 text-white w-full pt-10 p-5 md:px-15">
+  <footer class="bg-[#2E2E2E] text-white w-full pt-10 p-5 md:px-15">
     <div class="md:flex md:justify-between text-center gap-4 items-center  ">
       
       <div class="flex justify-center pb-5">
@@ -92,7 +92,7 @@
         </h1>
       </div>
 
-      <div class="text-xl  pb-5 flex justify-center gap-5 ">
+      <div class="text-xl pb-5 flex justify-center gap-5 ">
           <span class="rounded-full  bg-black/80 hover:bg-purple-600 p-3 transition duration-300 ">
             <a href="https://github.com/Britinogn" target="_blank" aria-label="GitHub">
               <i class="fa-brands fa-github "></i>

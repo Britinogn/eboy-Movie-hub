@@ -81,7 +81,7 @@ window.addEventListener("scroll", function() {
           </li>
 
           <li class="nav-item ">
-          <router-link to="/" @click="closeMenu" class="navbar-link transition-[1s]  hover:text-purple-500   "> About</router-link>
+          <router-link to="/about" @click="closeMenu" class="navbar-link transition-[1s]  hover:text-purple-500   "> About</router-link>
 
           </li>
 

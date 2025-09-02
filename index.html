@@ -1,20 +1,72 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic SEO -->
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <link rel="shortcut icon" href="/img/fav.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eboy Hub (Eboy Movie Hub) brings upcoming movies, trailers, and release dates into one clean dashboard. Discover films by date, genre, and region — fast, cached, and mobile-friendly." />
+    <meta name="keywords" content="Eboy Hub, Eboy Movie Hub, upcoming movies, movie releases, movie hub, trailers, movie calendar" />
+    <meta name="author" content="Eboy Hub" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <link rel="canonical" href="https://eboy-movie-hub.vercel.app/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@britinogn" />
+    <meta name="twitter:title" content="Eboy Hub — Eboy Movie Hub | Upcoming Movies" />
+    <meta name="twitter:description" content="Discover upcoming movies with posters, categories and release dates. Built by Eboy Hub (Eboy Movie Hub)." />
+    <meta name="twitter:image" content="https://https://eboy-movie-hub.vercel.app/fav.ico" />
+    
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Eboy Hub" />
+    <meta property="og:title" content="Eboy Hub — Eboy Movie Hub | Upcoming Movies & Trailers" />
+    <meta property="og:description" content="Explore upcoming movies grouped by release date. Eboy Hub (Eboy Movie Hub) gives you quick access to posters, genres and release calendars." />
+    <meta property="og:url" content="https://eboy-movie-hub.vercel.app/" />
+    <meta property="og:image" content="https://eboy-movie-hub.vercel.app/" />
+    <meta property="og:image:alt" content="Eboy Hub - Upcoming Movies" />
+
     <script src="https://kit.fontawesome.com/47ca9d9709.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
     rel="stylesheet">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-
-    <title>Eboy Movie Hub</title>
+    <title>Eboy Hub — Eboy Movie Hub | Upcoming Movies, Trailers & Release Dates</title>
+  
+  
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
+
+<!-- Structured data (JSON-LD) -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+    {
+    "@type": "Organization",
+    "name": "Eboy Hub",
+    "alternateName": "Eboy Movie Hub",
+    "url": "https://eboy-movie-hub.vercel.app/",
+    "logo": "https://www.YOUR_DOMAIN.com/LOGO_URL.png",
+    "sameAs": [
+    "https://x.com/britinogn",
+    "https://github.com/Britinogn"
+    ]
+    },
+    {
+    "@type": "WebSite",
+    "url": "https://eboy-movie-hub.vercel.app/",
+    "name": "Eboy Hub",
+    "description": "Eboy Hub (Eboy Movie Hub) — upcoming movies, trailers, and release dates in one clean dashboard.",
+    "publisher": { "@type": "Organization", "name": "Eboy Hub" }
+    }
+    ]
+  }
+</script>
+
