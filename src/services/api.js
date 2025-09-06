@@ -11,7 +11,7 @@ const api = axios.create ({
 });
 
 export const getUpcomingMovies = () => {
-  return api.get("/movies/top-250-movies");
+  return api.get("/movies/upcoming-tv-shows");
 };
 
 
